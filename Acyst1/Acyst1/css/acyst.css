@@ -1,0 +1,72 @@
+
+*{
+	margin:0px;
+	padding:0px;
+}
+header, footer, section, nav, hgroup{
+	display:block;
+}
+body{
+	text-align:center;
+}
+#mynav{
+	background:white;
+	color:black;
+}
+.headerMain{
+	color:white;
+}
+#style{
+	height:200px;
+}
+.btn{
+	margin-bottom:30px;
+}
+#footer{
+	padding-top:100px;
+}
+.link{
+	position:relative;
+	font-size:13px;
+	font-weight:600px;
+	font-family:Hind, sans-serif;
+	text-transform:uppercase;
+}
+.link:after{
+	position:absolute;
+	top:8px;
+	right:-15px;
+	width:9px;
+	height:2px;
+	background:#17bed2;
+	content:"";
+}
+#tuna{
+	padding-top:70px;
+}
+#latest{
+	padding-top:200px;
+}
+#bottom{
+	padding-bottom:70px;
+}
+#background{
+	padding-top:150px;
+	padding-bottom:150px;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:50%;
+  margin-top:30px;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left:120px;
+}
